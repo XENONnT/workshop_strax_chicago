@@ -119,9 +119,13 @@ ip, port = url.split('/')[2].split(':')
 token = url.split('?')[1].split('=')[1]
 
 print("""
-Success! Execute the following command on your local machine:
+Success! If you have linux, execute the following command on your laptop:
 
 ssh -fN -L {port}:{ip}:{port} {username}@dali-login1.rcc.uchicago.edu && sensible-browser http://localhost:{port}/?token={token}
+
+If you have a mac, instead do:
+
+ssh -fN -L {port}:{ip}:{port} {username}@dali-login1.rcc.uchicago.edu && open http://localhost:{port}/?token={token}
 
 Happy strax analysis!
 """.format(ip=ip, port=port, token=token, username=username))
