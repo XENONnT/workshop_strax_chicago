@@ -1,6 +1,6 @@
-# workshop_strax_chicago
-Materials from the chicago strax power-user workshop.
-Please commit anything you think it useful!
+# Chicago strax workshop materials
+
+Please commit anything you think is useful!
 
   * **exercises**: Solutions by participants of the first-day exercises
   * **projects**: Subfolders with projects attempted during the workshop
